@@ -85,7 +85,7 @@ describe('AngularJS', function() {
        });
      });
 
-   expect(browser.getCurrentUrl()).toContain('http://localhost:8081/#!/login');
+   expect(browser.getCurrentUrl()).toContain('http://localhost:8080/#!/login');
 });
 
 it('should login registered user', function() {
